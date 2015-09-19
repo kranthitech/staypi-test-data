@@ -1,0 +1,14 @@
+[
+	{
+		"type":"hasone",
+		"model": "Feature"
+	},
+	{
+		"type":"hasOne",
+		"model":"Purchasable"
+	},
+	{
+		"type":"hasOne",
+		"model":"Design"
+	}
+]

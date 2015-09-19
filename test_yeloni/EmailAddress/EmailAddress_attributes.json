@@ -1,0 +1,17 @@
+{
+    "title": "EmailAddress",
+    "description": "Model for Email Address",
+    "type": "object",
+    "properties": {
+        "email": {
+            "description": "User's email address",
+            "type": "string",
+            "format": "email"
+        }
+    },
+    "required": ["email"],
+    "create":true, 
+    "rest":true,
+    "store": "mongo",
+    "accessfrom": "Yeloni, Blogpage"
+}

@@ -1,0 +1,6 @@
+[
+	{
+		"type":"belongsTo",
+		"model": "Order"
+	}
+]

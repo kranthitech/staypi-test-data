@@ -1,0 +1,15 @@
+[
+	{
+		"type":"embedsOne",
+		"model": "Authentication"
+	},
+	{
+		"type":"hasMany",
+		"model":"Website"
+	},
+	{
+		"type":"embedsOne",
+		"model":"EmailAddress",
+		"required":true
+	}
+]

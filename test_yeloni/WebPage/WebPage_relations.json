@@ -1,0 +1,11 @@
+[
+	{
+		"type":"belongsTo",
+		"model": "Website",
+		"required": true
+	},
+	{
+		"type":"embedsOne",
+		"model":"PageMeta"
+	}
+]

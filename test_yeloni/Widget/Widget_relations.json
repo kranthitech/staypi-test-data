@@ -1,0 +1,14 @@
+[
+	{
+		"type":"embedsMany",
+		"model": "Customization"
+	},
+	{
+		"type":"belongsTo",
+		"model":"Website"
+	},
+	{
+		"type":"hasOne",
+		"model":"Order"
+	}
+]

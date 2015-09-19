@@ -1,0 +1,15 @@
+[
+	{
+		"type":"hasOne",
+		"model": "Payment"
+	},
+	{
+		"type":"belongsTo",
+		"model":"Widget",
+		"required":true
+	},
+	{
+		"type":"hasMany",
+		"model":"Purchasable"
+	}
+]
